@@ -1,0 +1,106 @@
+/* Reset margin và padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container chính */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Tiêu đề trang */
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Bảng danh sách sinh viên */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Định dạng hàng tiêu đề */
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Định dạng hàng dữ liệu */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Ảnh sinh viên */
+td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Hàng xen kẽ màu khác nhau */
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Nút thao tác */
+.action-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.action-links .edit {
+    background: #28a745;
+}
+
+.action-links .details {
+    background: #17a2b8;
+}
+
+.action-links .delete {
+    background: #dc3545;
+}
+
+/* Hiệu ứng hover */
+.action-links a:hover {
+    opacity: 0.8;
+}
+
+/* Nút "Thêm sinh viên" */
+.add-student {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.add-student:hover {
+    background: #0056b3;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
